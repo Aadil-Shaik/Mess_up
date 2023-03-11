@@ -24,7 +24,7 @@
         width: 60%;
         max-width: 500px;
       }
-      button[type="button"] {
+      button[type="submit"] {
         background-color: #333;
         color: #fff;
         padding: 1rem 2rem;
@@ -34,18 +34,14 @@
         margin-top: 1rem;
         cursor: pointer;
       }
-      button[type="submit"]:hover {
-        background-color: #555;
-      }
     </style>
   </head>
   <body>
-    <h1>Drop yourself some Solana</h1>
     <form>
-      <label for="inputText"></label>
+      <label for="inputText"><h1>Drop yourself some Solana</h1></label>
       <input type="text" placeholder="Enter your solana wallet address" />
       <br />
-      <button type="button">Airdrop</button>
+      <button type="submit">Airdrop</button>
     </form>
 
     <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
